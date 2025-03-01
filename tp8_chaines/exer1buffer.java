@@ -16,6 +16,7 @@ public class exer1buffer {
             System.out.println("donner un mot 2 ne depasse pas 10 caracteres");
             mot2 = sc.nextLine();
         } while ((mot1.length() > 10) || (mot2.length() > 10));
+
         text = new StringBuffer(ch);
         l1 = mot1.length();
         l2 = mot2.length();
