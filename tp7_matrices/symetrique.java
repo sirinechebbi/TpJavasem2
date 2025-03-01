@@ -18,7 +18,7 @@ public class symetrique {
         for (i = 0; i < n; i++) {
             for (j = i + 1; j < n; j++) { // Comparer uniquement la partie supérieure
                 if (matrice[i][j] != matrice[j][i]) {
-                    test = false;
+                    test = true;
 
                 }
             }
