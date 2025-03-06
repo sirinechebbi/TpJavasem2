@@ -16,5 +16,6 @@ public class Occurence {
             }
         }
         System.out.println("le caractere est apparait " + Nbr_occur + " fois dans la chaine ch ");
+        sc.close();
     }
 }

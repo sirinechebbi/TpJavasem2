@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class exemple {
 
@@ -16,7 +15,6 @@ public class exemple {
         System.out.println("position de \"moi\"dans ch1 ?" + ch1.indexOf("moi"));
         System.out.println("ch1 en majuscules:" + ch1.toUpperCase());
         System.out.println("ch1 en minuscules:" + ch1.toLowerCase());
-
     }
 
 }

@@ -22,5 +22,6 @@ public class exer1 {
 
         }
         System.out.println("le nouveau texte est:" + x);
+        sc.close();
     }
 }

@@ -26,5 +26,6 @@ public class exer1buffer {
             text = text.insert(pos, mot2);
         }
         System.out.println(text);
+        sc.close();
     }
 }
